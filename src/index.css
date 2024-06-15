@@ -16,8 +16,8 @@ body {
     height: 80vh;
   }
   .logo {
-    height: 46px;
-    width: 50px;
+    height: 40px;
+    width: 70px;
   }
   .login-img {
     height: 20px;
@@ -28,7 +28,7 @@ body {
     font-size: 12px;
     font-weight: bold;
   }
-  .sub-tile {
+  .sub-title {
     color: #272727;
     font-family: Almarai;
     font-size: 21px;
@@ -109,7 +109,7 @@ body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: 20px;
-    text-align: right;
+    text-align: left;
   }
   .card-price {
     color: #272727;
