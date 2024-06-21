@@ -11,28 +11,28 @@ export default function Footer() {
         </div>
 
         <div>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="facebook-f" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="twitter" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="google" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="instagram" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="linkedin" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="#" className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="github" />
           </a>
         </div>
       </section>
 
-      <section className="">
+      <section>
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
