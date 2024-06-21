@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './Pages/Home/HomePage';
 import NavBarLogin from './Components/Utilities/NavBarLogin';
 import Footer from './Components/Utilities/Footer';
-import Login from './Pages/Auth/Login';
+import LoginPage from './Pages/Auth/LoginPage';
+import RegisterPage from './Pages/Auth/RegisterPage';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
