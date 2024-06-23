@@ -13,7 +13,7 @@ export default function HomePage() {
       <CardProductContainer title={'Most Selling'} btntitle={'More'} />
       <DiscountSection />
       <CardProductContainer title={'Top Rating'} btntitle={'More'} />
-      <BrandContainer title={'Top Brands'} btntitl={'more'} />
+      <BrandContainer title={'Top Brands'} btntitle={'more'} />
     </div>
   );
 }

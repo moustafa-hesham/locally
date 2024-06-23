@@ -1,11 +1,11 @@
 import React from 'react';
-import CategoryItemsContainer from '../../Components/Category/CategoryItemsContainer';
+import AllCategoryContainer from '../../Components/Category/AllCategoryContainer';
 import Pagination from '../../Components/Utilities/Pagination';
 
 export default function AllCategoriesPage() {
   return (
     <div style={{ minHeight: '670px' }}>
-      <CategoryItemsContainer />
+      <AllCategoryContainer />
       <Pagination />
     </div>
   );

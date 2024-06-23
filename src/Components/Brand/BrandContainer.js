@@ -7,7 +7,7 @@ import brandlogo from '../../images/brand1.png';
 export default function BrandContainer({ title, btntitle }) {
   return (
     <Container>
-      <SubTitle title={title} btntitle={btntitle}></SubTitle>
+      <SubTitle title={title} btntitle={btntitle} path={'/allbrands'}></SubTitle>
       <Row className="d-flex justify-content-between my-2">
         <BrandCard img={brandlogo} />
         <BrandCard img={brandlogo} />

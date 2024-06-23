@@ -3,7 +3,7 @@ import CategoryItem from './CategoryItem';
 import { Container, Row } from 'react-bootstrap';
 import prod from '../../images/slider4.png';
 
-export default function CategoryItemsContainer() {
+export default function AllCategoryContainer() {
   return (
     <Container>
       <div className="admin-content-text pt-3">All Categories</div>
