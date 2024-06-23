@@ -7,7 +7,7 @@ import prod from '../../images/slider4.png';
 export default function HomeCategory() {
   return (
     <Container>
-      <SubTitle title={'Recent'} btntitle={'More'}></SubTitle>
+      <SubTitle title={'Categories'} btntitle={'More'} path={'/allcategories'}></SubTitle>
       <Row className="d-flex justify-content-between my-2">
         <CategoryItem title={'Mobiles'} background={'#FFFF00'} img={prod} />
         <CategoryItem title={'Mobiles'} background={'#00FF00'} img={prod} />

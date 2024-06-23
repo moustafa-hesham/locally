@@ -4,6 +4,7 @@ import NavBarLogin from './Components/Utilities/NavBarLogin';
 import Footer from './Components/Utilities/Footer';
 import LoginPage from './Pages/Auth/LoginPage';
 import RegisterPage from './Pages/Auth/RegisterPage';
+import AllCategoriesPage from './Pages/Category/AllCategoriesPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/allcategories" element={<AllCategoriesPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
