@@ -2,6 +2,9 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import RateItem from './RateItem';
+import RatePost from './RatePost';
+import Pagination from '../Utilities/Pagination';
 
 export default function RatingContainer() {
   return (
@@ -14,6 +17,14 @@ export default function RatingContainer() {
           <div className="rate-count d-inline p-1 pt-2">(160 reviews)</div>
         </Col>
       </Row>
+      <RatePost />
+      <RateItem />
+      <RateItem />
+      <RateItem />
+      <RateItem />
+      <RateItem />
+      <RateItem />
+      <Pagination />
     </Container>
   );
 }
