@@ -232,13 +232,13 @@ body {
   /* end card filter */
   
   /* products details page */
-  .product-gallary-card {
+  .product-gallery-card {
     height: 470px !important;
     width: 370px;
     border-radius: 29px;
     background-color: #ffffff;
   }
-  
+
   .cat-text {
     color: #979797;
     font-family: "Almarai";
@@ -246,7 +246,7 @@ body {
     font-weight: bold;
     letter-spacing: 0;
     line-height: 23px;
-    text-align: right;
+    text-align: left;
   }
   
   .cat-title {
@@ -256,7 +256,9 @@ body {
     font-weight: normal;
     text-align: right;
   }
-  
+  .rate-icon{
+    color: #FFD700 ;
+  }
   .cat-rate {
     color: #ffc107;
     font-family: "Almarai";
@@ -264,7 +266,7 @@ body {
     font-weight: bold;
     letter-spacing: 0;
     line-height: 19px;
-    text-align: right;
+    text-align: left;
   }
   
   .barnd-text {
@@ -645,7 +647,7 @@ body {
     font-weight: bold;
     letter-spacing: 0;
     line-height: 20px;
-    text-align: right;
+    text-align: left;
   }
   .filter-sub {
     color: #555550;
@@ -654,5 +656,8 @@ body {
     letter-spacing: 0;
     line-height: 17px;
     text-align: center;
+  }
+  .filter-p2{
+    padding-right: 13px;
   }
   /* end filter */

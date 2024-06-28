@@ -3,6 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import prod1 from '../../images/prod3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faStar } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function ProductCard() {
   return (
@@ -18,7 +19,9 @@ export default function ProductCard() {
           boxShadow: '0 2px 2px 0 rgba(151,151,151,0.5)',
         }}
       >
-        <Card.Img style={{ height: '228px', width: '100%' }} src={prod1} />
+        <Link to={'/products:/id'}>
+          <Card.Img style={{ height: '228px', width: '100%' }} src={prod1} />
+        </Link>
         <Card.Body>
           <Card.Title className="d-flex">
             <div className="card-title">Amazfit S Smartwatch Carbon Black</div>
