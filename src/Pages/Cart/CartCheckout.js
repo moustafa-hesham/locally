@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-export default function CartCheckoiut() {
+export default function CartCheckout() {
   return (
     <Row className="my-1 d-flex justify-content-center cart-checkout pt-3">
       <Col xs="12" className="d-flex flex-column">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import CartItem from '../../Components/Cart/CartItem';
-import CartCheckoiut from './CartCheckoiut';
+import CartCheckout from './CartCheckout';
 
 export default function CartPage() {
   return (
@@ -16,7 +16,7 @@ export default function CartPage() {
             <CartItem />
           </Col>
           <Col xs="6" md="3">
-            <CartCheckoiut />
+            <CartCheckout />
           </Col>
         </Row>
       </Container>
